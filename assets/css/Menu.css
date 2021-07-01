@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.estiloBody{
+	background-color: 00000;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*-------------------------------------------*/
+
+
+.titulo{
+	font-family: Edwardian Script ITC;
+	font-weight: bold;
+	font-size: 45px;
+}
+
+/*-----Estilos Header-----*/
+
+.estiloHeader{
+	background-color: #AEF7F6;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px 10px 20px;
+	align-items: center;
+}
+
+.estiloUl{
+	display: flex;
+}
+
+.estiloLi{
+	list-style: none;
+	margin:  0px 20px 0px 20px;
+}
+
+.estiloNav{
+	margin:  20px 50px 20px 20px;
+}
+
+.estiloVinculo{
+	text-decoration: none;
+	color: #BFAEF7;
+	font-weight: 500;
+	font-size: 25px;
+	font-family: Edwardian Script ITC;
+	font-weight: bold;
+}
+
+/*-----Estilos del Footer-----*/
+
+.estiloFooter{
+	background-color: #AEF7F6;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedorGitHub{
+	display: flex;
+	justify-content: center;
+	margin: 32px;
+}
+
+.iconoGitHub{
+	height: 40px;
+	margin-right: 25px;
+}
+
+.usuarioGitHub{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.textoFooter{
+	font-weight: 300;
+	font-family: David;
+}
+
+.textoLink{
+	font-weight: 300;
+	font-size: 16px;
+	font-family: David;
+}
+
+/*-----Estilo Main-----*/
+
+.estiloMain{
+	background-color: #BFAEF7;
+	width: 90%;
+	margin: 20px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.estiloSection{
+	display: flex;
+	padding: 25px;
+	justify-content: flex-end;
+}
+
+.picPrincipal{
+	width: 83%;
+}
+
+.ContenedorImagen{
+	width: 50%;
+}
+
+.ContenedorImagen2{
+	width: 50%;
+}
+
+/*Estilos Para La Pagina Responsive*/
+@media screen and (max-width:500px) {
+.estiloSection{
+	flex-direction: column;
+	padding-left: 18%;
+}	
+
+.ContenedorImagen{
+	width: 100%;
+	order: 1;
+}
+
+.ContenedorImagen2{
+	width: 100%;
+	order: 2;
+}
